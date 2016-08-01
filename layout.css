@@ -1,0 +1,332 @@
+*{
+    margin: 0px ;
+    padding:0px ;
+    
+}
+
+
+body{
+        background-image:url(rest.jpg);
+    background-size: cover;
+     
+    }
+div {
+    margin: 0px 0px;
+    padding:0px 0px;
+   
+ 
+    
+}
+
+
+
+#header1 {
+    width:96%;
+    height:200px;
+    margin-left: 20px;
+    background-image: url(wood.jpg);
+
+    
+    }
+#header1 h1{
+    text-align: center;
+    margin-top: -10px;
+    color: black;
+     font-family: 'Bungee Shade', cursive
+}
+
+#header1 img{
+    margin-left: 600px; 
+    width:120px;
+    height:120px;
+   
+    
+    
+}
+ul#nav{
+    
+    list-style-type: none;
+    margin-top:20px;
+    
+   
+   
+    } 
+
+
+
+ul#nav li  {
+    width: 125px;
+     
+     position:relative;
+    margin-right: 80px;
+    text-align: center;
+    float: left;
+    }
+ul#nav li  a{
+    
+    color:white;
+    font-size: 22px;
+    text-decoration: none;
+    
+    background-color:rgba(17, 9, 0,7);
+box-shadow: 18px -9px 19px #000000;
+    
+    
+}
+
+ul#nav ul.sub1 li  {
+    
+margin-top: 30px;
+    
+  
+}
+
+
+ul#nav ul.sub1  {
+    display: none;
+    list-style-type: none;
+  
+    
+    
+
+   
+   }
+ul#nav li:hover .sub1{
+    display: block;
+    margin-top:10px;
+  
+   }
+ 
+#headerchef1 {
+    width:63%;
+    height:300px;
+    margin:10px;
+    margin-left:360px;
+   
+    background-color: black;
+    border: 2px solid white;
+  
+   
+}
+#headerchef2 {
+    width:63%;
+    height:300px;
+    margin:10px;
+    margin-left:360px;
+   
+    background-color: black;
+    border: 2px solid white;
+}
+#headerchef1  img {
+    
+    display:inline-block;
+}
+#headerchef2  img {
+    display: inline-block;
+    
+    
+}
+
+#header2 {
+    width:80%;
+    height:350px;
+    margin:10px ;
+    margin-left: 225px;
+  
+   
+}
+@keyframes slider{
+    
+    0%
+    {left:0%;
+        
+    }   
+     20%
+    {left:0%;
+        
+    }   
+     25%
+    {left:-100%;
+        
+    }   
+     45%
+    {left:-100%;
+        
+    }   
+    50%
+    {left:-200%;
+        
+    }   
+     70%
+    {left:-200%;
+        
+    }   
+     
+    75%{left:-300%;
+        
+    }   
+     95%
+    {left:-300%;
+        
+    }  
+    100%
+    {left:-400%;
+        
+    } 
+}
+    #header2{
+        overflow: hidden;
+        
+    }
+#header2 figure img{
+    width: 20%;
+    float: left;
+}
+#header2 figure{
+    position:relative;
+   width:500%; 
+    margin:0px;
+    left:0px;
+    text-align: left;
+    font-size: 0;
+    animation: 15s slider infinite;
+    
+}
+
+    
+
+   
+
+#body{
+    width:80%;
+    height:500px;
+    margin-left: 235px;
+  
+   
+}
+aside{
+ width:500px;
+    margin-left: 572px;
+    margin-top: 30px;
+    background-color: floralwhite;
+    font-size: 20px;
+    text-align: left;
+    
+    
+    
+    
+}
+aside h2{
+    text-decoration: underline;
+    background-color: darkgrey;
+}
+section{
+    
+margin-top: -380px;
+    position: relative;
+   
+    
+    
+    
+    
+    
+    
+}
+section img{
+    border-bottom: 2px solid yellow;
+    
+}
+section .happytext{
+    position: absolute;
+    color:white;
+    margin-top: -500px;
+    font-family: 'Pacifico', cursive;
+    
+}
+spam{
+    color:yellow;
+    font-size: 30px;
+   
+   
+}
+#bodyd{
+    position: relative;
+    width:90%;
+    height:950px;
+    margin-left: 200px;
+    background-image: url(paper1.png);
+    background-size: cover;
+  
+   
+}
+#bodyd .drinks{
+    position:absolute;
+ margin-left: 95px;
+    margin-top:190px;
+  
+    
+    
+}
+#bodyd .food{
+    position:absolute;
+ margin-left: 95px;
+    margin-top:190px;
+  
+    
+    
+}
+#bodya{
+    width:80%;
+    height:800px;
+    margin-left: 225px;
+    background-color: beige;
+    
+  
+   
+}
+#bodyphotos{
+    margin-left: 107px;
+    
+    
+    display: inline-block
+   
+}
+#bodyphotos img {
+    
+    border-bottom: 6px solid white;
+}
+
+#footer1{
+    width:96%;
+    height:100px;
+    margin: 10px 10px;
+  background-color: rgba(9, 11, 3, 0.9);
+}
+#footer2{
+    width:96%;
+    height:150px;
+    margin: -9px 10px;
+    background-color: rgba(9, 11, 3,1);
+}
+
+#footer1 li {  
+    
+display: inline-block;
+    margin-left: 60px;
+    margin-top: 15px;    
+    
+}
+
+
+#footer1 ul{
+    
+    margin-left: 300px;
+}
+#footer2 h4{
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    line-height: 150px;
+    font-family:serif;
+}
+   
